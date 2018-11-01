@@ -5,7 +5,10 @@ import Utool.UItools;
 import javax.swing.*;
 import java.awt.*;
 
-public class LoginPanel extends WorkingPanel {
+/**
+ * 登录页面
+ */
+public class LoginPanel extends JLabel {
     public static LoginPanel instance = new LoginPanel();
     public JTextField name = new JTextField();
     public JPasswordField passwordField = new JPasswordField();
@@ -31,12 +34,11 @@ public class LoginPanel extends WorkingPanel {
         this.add(psw);
         this.add(passwordField);
     }
-
-    public void updateData(){
-
-    }
     public void addListener(){
 
+    }
+    public boolean isLogin(){
+        return true;
     }
 
 }

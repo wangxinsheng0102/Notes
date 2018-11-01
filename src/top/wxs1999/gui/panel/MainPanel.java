@@ -2,6 +2,7 @@ package top.wxs1999.gui.panel;
 
 import Utool.CenterPanel;
 import Utool.UItools;
+import listener.BarListener;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -9,6 +10,9 @@ import java.awt.*;
 import java.io.File;
 import java.awt.BorderLayout;
 
+/**
+ * 主页面
+ */
 public class MainPanel extends JPanel {
     public JToolBar tb = new JToolBar();
     public JButton bSpend = new JButton();
@@ -29,8 +33,6 @@ public class MainPanel extends JPanel {
         UItools.setImageIcon(this.bConfig, "config.png", "设置");
         UItools.setImageIcon(this.bBackup, "backup.png", "备份");
         UItools.setImageIcon(this.bRecover, "restore.png", "恢复");
-
-        //增加用户名输入框
         // 把按钮添加到工具栏上
         this.tb.add(this.bSpend);
         this.tb.add(this.bRecord);
@@ -46,13 +48,14 @@ public class MainPanel extends JPanel {
         add(this.tb, BorderLayout.NORTH);
         add(this.workingPanel, BorderLayout.CENTER);
 
-        //addListener();
+        addListener();
     }
     public String myPath(String path){
         return "/home/wangxinsheng/记事本/pic/"+path+".png/";
     }
     public void addListener(){
-
+        BarListener listener = new BarListener();
+        this.bReport.addActionListener(listener);
     }
 
 }
