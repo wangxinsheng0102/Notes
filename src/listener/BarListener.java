@@ -1,8 +1,6 @@
 package listener;
 
-import top.wxs1999.gui.panel.LoginPanel;
-import top.wxs1999.gui.panel.MainPanel;
-import top.wxs1999.gui.panel.ReportPanel;
+import top.wxs1999.gui.panel.*;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -10,24 +8,37 @@ import java.awt.event.ActionListener;
 
 public class BarListener implements ActionListener {
     MainPanel p ;
+    JButton jb;
     LoginPanel lp;
-    JButton b;
     @Override
     public void actionPerformed(ActionEvent e){
-        p = MainPanel.instance;
-        lp = LoginPanel.instance;
-        b =(JButton)e.getSource(); //获取点击按钮
-        //登录后才能操作
-        if(lp.isLogin()){
-            if(b == lp.bLogin){
-//            p.workingPanel.show();
-            }else if(b == p.bReport){
-                p.workingPanel.show(ReportPanel.instance);
-            }else if(b == p.bSpend){
 
-            }
+       p = MainPanel.instance;
+       jb = (JButton)e.getSource();
+        if(jb == p.bReport){
+            p.workingPanel.show(ReportPanel.instance);
         }
-
+        if(jb == p.bBackup){
+            p.workingPanel.show(BackupPanel.instance);
+        }
+        if(jb == p.bCategory){
+            p.workingPanel.show(CategoryPanel.instance);
+        }
+        if(jb == p.bConfig){
+            p.workingPanel.show(ConfigPanel.instance);
+        }
+        if(jb == p.bRecord){
+            p.workingPanel.show(RecordPanel.instance);
+        }
+        if(jb == p.bRecover){
+            p.workingPanel.show(RecoverPanel.instance);
+        }
+        if(jb == p.bSpend){
+            p.workingPanel.show(SpendPanel.instance);
+        }
+        if(jb == p.bLogin){
+            p.workingPanel.show(LoginPanel.instance);
+        }
     }
 
 }

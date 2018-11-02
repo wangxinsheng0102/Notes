@@ -17,3 +17,4 @@ public class ReportPanel extends JPanel {
     }
 
 }
+
