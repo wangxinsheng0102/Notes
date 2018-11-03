@@ -36,4 +36,16 @@ public class DataBaseTools {
         }
         return null;
     }
+
+    /**
+     * 关闭数据库连接
+     */
+    public static void closeDataBaseLink(Connection connection, PreparedStatement pst) {
+        try {
+            connection.close();
+            pst.close();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }

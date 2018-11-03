@@ -6,7 +6,7 @@ import entity.Login;
 import java.sql.*;
 
 public class RegistDao {
-    public void add(Login login) {
+    public static void add(Login login) {
         String sql = "insert into myuser(username,password) values(?,?)";
         try (Connection c = DataBaseTools.getConn(); PreparedStatement ps = c.prepareStatement(sql);) {
             ps.setString(1, login.getUsername());

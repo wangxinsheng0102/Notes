@@ -42,6 +42,7 @@ public class LoginPanel extends JPanel {
     public void addListener(){
         LoginListener listener = new LoginListener();
         this.bRegist.addActionListener(listener);
+        this.bLogin.addActionListener(listener);
     }
     public boolean isLogin(){
         return true;
