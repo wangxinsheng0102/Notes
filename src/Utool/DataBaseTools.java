@@ -1,24 +1,23 @@
 package Utool;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 /**
  * 数据库工具类
  */
 public class DataBaseTools {
-    static String ip = "120.78.156.16";
+    static String ip = "localhost";
     static int port = 3306;
     static String database = "user";
     static String encoding = "UTF-8";
-    static String loginName = "wangxinsheng";
-    static String password = "123456";
-    static{
+    static String loginName = "root";
+    static String password = "818923";
+
+    static {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            System.out.println("驱动加载成功");
-        }catch (ClassNotFoundException e){
+            System.out.println("加载驱动成功");
+        } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
     }
@@ -26,8 +25,10 @@ public class DataBaseTools {
      * 获取链接
      */
     public static Connection getConn(){
+        // Class.forName("com.mysql.jdbc.Driver");
         String url = String.format("jdbc:mysql://%s:%d/%s?characterEncoding=%s", ip, port, database, encoding);
         try {
+            //System.out.println("连接成功！");
             return DriverManager.getConnection(url, loginName, password);
         } catch (SQLException e) {
             e.printStackTrace();

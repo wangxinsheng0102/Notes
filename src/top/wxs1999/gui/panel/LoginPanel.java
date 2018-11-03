@@ -1,6 +1,7 @@
 package top.wxs1999.gui.panel;
 
 import Utool.UItools;
+import listener.LoginListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -36,9 +37,11 @@ public class LoginPanel extends JPanel {
         this.add(psw);
         this.add(passwordField);
         this.add(bRegist);
+        addListener();
     }
     public void addListener(){
-
+        LoginListener listener = new LoginListener();
+        this.bRegist.addActionListener(listener);
     }
     public boolean isLogin(){
         return true;

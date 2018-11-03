@@ -31,7 +31,7 @@ public class MainPanel extends JPanel {
 
     public static MainPanel instance = new MainPanel();
     private MainPanel(){
-        UItools.setImageIcon(this.bLogin,"loging.png","登录");
+        UItools.setImageIcon(this.bLogin, "", "登录");
         UItools.setImageIcon(this.bSpend, "home.png", "消费一览");
         UItools.setImageIcon(this.bRecord, "record.png", "记一笔");
         UItools.setImageIcon(this.bCategory, "category2.png", "消费分类");
@@ -50,16 +50,12 @@ public class MainPanel extends JPanel {
         this.tb.add(this.bRecover);
         this.tb.setFloatable(false); // 工具栏固定位置
         this.workingPanel = new CenterPanel(0.8D);//设定工作区域
-        DataBaseTools.getConn();
         setLayout(new BorderLayout());
         add(this.tb, BorderLayout.NORTH);
         add(this.workingPanel, BorderLayout.CENTER);
-
         addListener();
     }
-    public String myPath(String path){
-        return "/home/wangxinsheng/记事本/pic/"+path+".png/";
-    }
+
     public void addListener(){
         BarListener listener = new BarListener();
         this.bReport.addActionListener(listener);
