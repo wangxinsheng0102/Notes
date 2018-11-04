@@ -12,7 +12,6 @@ public class RegistDao {
             ps.setString(1, login.getUsername());
             ps.setString(2, login.getPassword());
             ps.execute();
-            ResultSet rs = ps.getGeneratedKeys();
         } catch (SQLException e) {
             e.printStackTrace();
         }

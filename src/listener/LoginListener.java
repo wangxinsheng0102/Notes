@@ -33,8 +33,12 @@ public class LoginListener implements ActionListener {
             lg.setUsername(userName);
             lg.setPassword(password);
             if (LoginDao.login(lg)) {
+                gloableStatus.userName = userName;
                 Date date = new Date();
                 System.out.println("登陆成功");
+                JOptionPane.showConfirmDialog(null, "登陆成功", "Confirm",
+
+                        JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
                 gloableStatus.isLogin = true;
                 PersonalPanel.instance.setName(userName);
                 PersonalPanel.instance.setDate(String.valueOf(date));

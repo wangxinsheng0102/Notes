@@ -7,6 +7,7 @@ package gloable;
  */
 public class gloableStatus {
     public static gloableStatus instance = new gloableStatus();
-    public static boolean isLogin = false;
+    public static boolean isLogin = false;//当前账户状态
+    public static String userName = null;//当前的账户
 
 }
