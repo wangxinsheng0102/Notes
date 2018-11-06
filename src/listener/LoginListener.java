@@ -26,24 +26,32 @@ public class LoginListener implements ActionListener {
         if (jb == lp.bRegist) {
             p.workingPanel.show(RegistPanel.instance);
         }
-        if (jb == lp.bLogin) {
-            Login lg = new Login();
-            String userName = lp.name.getText();
-            String password = new String(lp.passwordField.getPassword());
-            lg.setUsername(userName);
-            lg.setPassword(password);
-            if (LoginDao.login(lg)) {
-                gloableStatus.userName = userName;
-                Date date = new Date();
-                System.out.println("登陆成功");
-                JOptionPane.showConfirmDialog(null, "登陆成功", "Confirm",
+        if (!gloableStatus.isLogin) {
+            if (jb == lp.bLogin) {
+                Login lg = new Login();
+                String userName = lp.name.getText();
+                String password = new String(lp.passwordField.getPassword());
+                lg.setUsername(userName);
+                lg.setPassword(password);
+                if (LoginDao.login(lg)) {
+                    gloableStatus.userName = userName;
+                    Date date = new Date();
+                    System.out.println("登陆成功");
+                    JOptionPane.showConfirmDialog(null, "登陆成功", "Confirm",
 
-                        JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
-                gloableStatus.isLogin = true;
-                PersonalPanel.instance.setName(userName);
-                PersonalPanel.instance.setDate(String.valueOf(date));
-                PersonalPanel.instance.run();
-                p.workingPanel.show(PersonalPanel.instance);
+                            JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
+                    gloableStatus.isLogin = true;
+                    PersonalPanel.instance.setName(userName);
+                    PersonalPanel.instance.setDate(String.valueOf(date));
+                    PersonalPanel.instance.run();
+                    p.bLogin.setText(gloableStatus.userName);//将这个按钮文字设置为用户名
+                    p.workingPanel.show(PersonalPanel.instance);
+                } else {
+                    JOptionPane.showConfirmDialog(null, "密码或用户名错误", "Confirm",
+
+                            JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
+                }
+
             }
         }
     }

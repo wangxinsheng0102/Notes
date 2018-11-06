@@ -4,6 +4,7 @@ import Utool.DataBaseTools;
 import entity.Spend;
 import gloable.gloableStatus;
 
+import javax.swing.*;
 import java.sql.*;
 
 /**
@@ -22,6 +23,9 @@ public class SpendInnerDAO {
             java.sql.Date s_date = new Date(date.getTime());
             ps.setDate(4, s_date);
             ps.execute();
+            JOptionPane.showConfirmDialog(null, "写入成功", "Confirm",
+
+                    JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -37,8 +37,6 @@ public class MainPanel extends JPanel {
         UItools.setImageIcon(this.bCategory, "category2.png", "消费分类");
         UItools.setImageIcon(this.bReport, "report.png", "月消费报表");
         UItools.setImageIcon(this.bConfig, "config.png", "设置");
-        UItools.setImageIcon(this.bBackup, "backup.png", "备份");
-        UItools.setImageIcon(this.bRecover, "restore.png", "恢复");
         // 把按钮添加到工具栏上
         this.tb.add(this.bLogin);
         this.tb.add(this.bSpend);
@@ -46,8 +44,6 @@ public class MainPanel extends JPanel {
         this.tb.add(this.bCategory);
         this.tb.add(this.bReport);
         this.tb.add(this.bConfig);
-        this.tb.add(this.bBackup);
-        this.tb.add(this.bRecover);
         this.tb.setFloatable(false); // 工具栏固定位置
         this.workingPanel = new CenterPanel(0.8D);//设定工作区域
         setLayout(new BorderLayout());

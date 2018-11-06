@@ -12,6 +12,11 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * 注册监听类
+ *
+ * @author wxs
+ */
 public class RegistListener implements ActionListener {
     MainPanel p;
     RegistPanel rp;
@@ -31,12 +36,25 @@ public class RegistListener implements ActionListener {
             userName = rp.userName.getText();
             passWord = new String(rp.passwordField.getPassword());
             rePassword = new String(rp.rePasswordField.getPassword());
-            if (passWord.equals(rePassword)) {
-                Login regist = new Login(userName, passWord);
-                RegistDao.add(regist);
-                p.workingPanel.show(lp);
-                System.out.println("注册成功");
+            if (!passWord.isEmpty() || !rePassword.isEmpty()) {
+                if (passWord.equals(rePassword)) {
+                    Login regist = new Login(userName, passWord);
+                    RegistDao.add(regist);
+                    p.workingPanel.show(lp);
+                    JOptionPane.showConfirmDialog(null, "注册成功", "Confirm",
+
+                            JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
+                } else {
+                    JOptionPane.showConfirmDialog(null, "密码不一致", "Confirm",
+
+                            JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
+                }
+            } else {
+                JOptionPane.showConfirmDialog(null, "密码不能为空", "Confirm",
+
+                        JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
             }
+
         }
     }
 }

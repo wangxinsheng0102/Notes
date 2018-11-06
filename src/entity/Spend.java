@@ -1,5 +1,10 @@
 package entity;
 
+/**
+ * 花费存储模型
+ *
+ * @author wxs
+ */
 public class Spend {
     private String type;
 
@@ -25,7 +30,7 @@ public class Spend {
         return cost;
     }
 
-    public void setCost(double cost) {
+    public void setCost(Double cost) {
         this.cost = cost;
     }
 }

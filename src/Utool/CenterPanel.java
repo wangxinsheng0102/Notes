@@ -5,9 +5,7 @@ import top.wxs1999.gui.panel.WorkingPanel;
 import javax.swing.*;
 import java.awt.*;
 
-public class CenterPanel extends JPanel{/**
- *
- */
+public class CenterPanel extends JPanel {
 private static final long serialVersionUID = 1L;
     private double rate; // 比例
     private JComponent c; // 面板上将要居中的组件

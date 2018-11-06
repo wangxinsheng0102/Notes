@@ -5,6 +5,11 @@ import entity.Login;
 
 import java.sql.*;
 
+/**
+ * 数据库注册写入操作
+ *
+ * @author wxs
+ */
 public class RegistDao {
     public static void add(Login login) {
         String sql = "insert into myuser(username,password) values(?,?)";
