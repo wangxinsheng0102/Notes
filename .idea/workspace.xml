@@ -1,36 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/listener/RegistListener.java" line="35" />
+    <bookmark url="file://$PROJECT_DIR$/src/listener/RegistListener.java" line="37" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="250ad14d-ea18-4523-a0c6-38a4b095bdb9" name="默认更改列表" comment=" - 完善读取,写入Spend(消费记录)&#10; - 增加登陆弹窗">
-      <change afterPath="$PROJECT_DIR$/src/listener/RecordListener.java" afterDir="false" />
+    <list default="true" id="250ad14d-ea18-4523-a0c6-38a4b095bdb9" name="默认更改列表" comment="修复一些已知bug">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/listener/PersonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/记事本/Utool/CenterPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/Utool/CenterPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/记事本/Utool/DataBaseTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/Utool/DataBaseTools.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/记事本/listener/BarListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/listener/BarListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/BackupPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/frame/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/frame/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/frame/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/frame/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/LoginPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/LoginPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/MainPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/MainPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/RecordPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/RecordPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/RecoverPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/ReportPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/ReportPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/SpendPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/记事本/top/wxs1999/gui/panel/SpendPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DAO/RegistDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/RegistDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/SpendDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/SpendDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DAO/SpendInnerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DAO/SpendInnerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utool/CenterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utool/CenterPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utool/DataBaseTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utool/DataBaseTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utool/MySqlTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utool/MySqlTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Spend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Spend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gloable/gloableStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gloable/gloableStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listener/BarListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listener/BarListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/listener/LoginListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listener/LoginListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listener/RegistListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listener/RegistListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/BackupPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecoverPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/记事本.iml" beforeDir="false" afterPath="$PROJECT_DIR$/记事本.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,38 +87,40 @@
     <session id="-1782889045">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8190" />
-          <entry key="txt" value="68" />
+          <entry key="dummy" value="8" />
+          <entry key="java" value="8862" />
+          <entry key="txt" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8190" />
-          <entry key="PLAIN_TEXT" value="68" />
+          <entry key="JAVA" value="8862" />
+          <entry key="PLAIN_TEXT" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ico" value="1" />
-          <entry key="java" value="161" />
-          <entry key="png" value="9" />
+          <entry key="java" value="213" />
+          <entry key="png" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="10" />
-          <entry key="JAVA" value="161" />
+          <entry key="Image" value="15" />
+          <entry key="JAVA" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -139,92 +140,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="291">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listener/RecordListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listener/LoginListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/SpendDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Spend.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/entity/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="21" selection-start-line="21" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/RegistDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -232,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/listener/RegistListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            <state relative-caret-position="459">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,10 +187,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/listener/BarListener.java">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="405">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/listener/LoginListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/listener/PersonListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="831">
+              <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RegistPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -283,29 +285,31 @@
         <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/CategoryPanel.java" />
         <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/ConfigPanel.java" />
         <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecoverPanel.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java" />
         <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RegistPanel.java" />
         <option value="$PROJECT_DIR$/src/entity/Login.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java" />
         <option value="$PROJECT_DIR$/src/DAO/LoginDao.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java" />
         <option value="$PROJECT_DIR$/src/listener/RegistListener.java" />
         <option value="$PROJECT_DIR$/src/entity/Spend.java" />
         <option value="$PROJECT_DIR$/src/DAO/RegistDao.java" />
         <option value="$PROJECT_DIR$/src/Utool/CenterPanel.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java" />
         <option value="$PROJECT_DIR$/src/Utool/DataBaseTools.java" />
         <option value="$PROJECT_DIR$/src/Utool/MySqlTools.java" />
-        <option value="$PROJECT_DIR$/src/listener/LoginListener.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java" />
         <option value="$PROJECT_DIR$/src/DAO/RecordDAO.java" />
         <option value="$PROJECT_DIR$/src/gloable/gloableStatus.java" />
-        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java" />
-        <option value="$PROJECT_DIR$/src/DAO/SpendInnerDAO.java" />
-        <option value="$PROJECT_DIR$/src/DAO/SpendDAO.java" />
         <option value="$PROJECT_DIR$/src/listener/RecordListener.java" />
         <option value="$PROJECT_DIR$/src/listener/BarListener.java" />
+        <option value="$PROJECT_DIR$/src/DAO/SpendInnerDAO.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/DAO/SpendDAO.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java" />
+        <option value="$PROJECT_DIR$/src/listener/LoginListener.java" />
+        <option value="$PROJECT_DIR$/src/listener/PersonListener.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java" />
+        <option value="$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java" />
       </list>
     </option>
   </component>
@@ -319,8 +323,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="207" />
-    <option name="y" value="26" />
+    <option name="x" value="310" />
+    <option name="y" value="95" />
     <option name="width" value="1340" />
     <option name="height" value="930" />
   </component>
@@ -332,7 +336,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -350,12 +353,6 @@
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DAO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Notes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
@@ -380,6 +377,21 @@
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="frame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="frame" type="462c0819:PsiDirectoryNode" />
+              <item name="MainFrame.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
               <item name="panel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,34 +400,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Utool" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/wangx/IdeaProjects/Notes/src/DAO/SpendInnerDAO.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541482053061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541586942123" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/SmallBill" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wangx\IdeaProjects\Notes\pic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/pic" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\wangx\IdeaProjects\Notes\pic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -521,7 +539,10 @@
       <workItem from="1541313591069" duration="104000" />
       <workItem from="1541334194980" duration="5388000" />
       <workItem from="1541393444663" duration="5285000" />
-      <workItem from="1541466641622" duration="3864000" />
+      <workItem from="1541466641622" duration="4000000" />
+      <workItem from="1541482460100" duration="966000" />
+      <workItem from="1541508748085" duration="1883000" />
+      <workItem from="1541582079767" duration="4937000" />
     </task>
     <task id="LOCAL-00001" summary="增加部分页面">
       <created>1541068671779</created>
@@ -558,17 +579,23 @@
       <option name="project" value="LOCAL" />
       <updated>1541339552250</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修复一些已知bug">
+      <created>1541482140468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541482140468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62421000" />
+    <option name="totallyTimeSpent" value="70343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.2867804" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" visible="true" weight="0.29637527" />
       <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24973376" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -578,7 +605,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30477223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30477223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,12 +637,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/MyNote" />
+    </ignored-roots>
     <MESSAGE value="2018-10-31" />
     <MESSAGE value="增加部分页面" />
     <MESSAGE value="增加数据库操作工具" />
     <MESSAGE value="增加登陆、注册功能" />
     <MESSAGE value=" - 完善读取,写入Spend(消费记录)&#10; - 增加登陆弹窗" />
-    <option name="LAST_COMMIT_MESSAGE" value=" - 完善读取,写入Spend(消费记录)&#10; - 增加登陆弹窗" />
+    <MESSAGE value="修复一些已知bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复一些已知bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -625,22 +656,13 @@
     <entry file="file://$PROJECT_DIR$/pic">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pic/backup.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://$USER_HOME$/jdk1.8.0_181/src.zip!/javax/swing/JComponent.java" />
     <entry file="file://$PROJECT_DIR$/src/listener.java" />
     <entry file="file://$PROJECT_DIR$/pic/login.png" />
-    <entry file="file://$PROJECT_DIR$/pic/category1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pic/home.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pic/config.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pic/category2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pic/hutubill.ico">
@@ -655,30 +677,6 @@
     <entry file="file://$PROJECT_DIR$/pic/loging.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utool/UItools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/WorkingPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/ConfigPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -689,22 +687,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecoverPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/BackupPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/DAO/RecordDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/DAO/RegistDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
+        <state relative-caret-position="297">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Spend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="21" selection-start-line="21" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utool/MySqlTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecoverPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/BackupPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/Utool/MySqlTools.java">
+    <entry file="file://$PROJECT_DIR$/src/listener/BarListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="1161">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/CategoryPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/backup.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/category1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/category2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/WorkingPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/login.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gloable/gloableStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/SpendDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/SpendInnerDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/LoginPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/listener/RecordListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Utool/CenterPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="108">
           <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -728,119 +824,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/Utool/UItools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="237">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/RecordDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/CategoryPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state relative-caret-position="27">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/ReportPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RegistPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/SpendInnerDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gloable/gloableStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="21" selection-start-line="21" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/RegistDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Spend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/SpendDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="345">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -849,18 +857,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/RecordPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="831">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listener/RecordListener.java">
+    <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="558">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -869,8 +877,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/listener/RegistListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+        <state relative-caret-position="459">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -879,28 +887,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/listener/LoginListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        <state relative-caret-position="1071">
+          <caret line="44" column="73" selection-start-line="44" selection-start-column="73" selection-end-line="44" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/listener/BarListener.java">
+    <entry file="file://$PROJECT_DIR$/src/listener/PersonListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="196">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/SpendPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/PersonalPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="291">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/panel/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/top/wxs1999/gui/frame/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -981,6 +1011,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -26,6 +26,7 @@ public class SpendInnerDAO {
             JOptionPane.showConfirmDialog(null, "写入成功", "Confirm",
 
                     JOptionPane.YES_OPTION, JOptionPane.QUESTION_MESSAGE);
+            DataBaseTools.closeDataBaseLink(c, ps);
         } catch (SQLException e) {
             e.printStackTrace();
         }

@@ -4,6 +4,7 @@ import Utool.DataBaseTools;
 import sun.applet.Main;
 import top.wxs1999.gui.panel.LoginPanel;
 import top.wxs1999.gui.panel.MainPanel;
+import top.wxs1999.gui.panel.PersonalPanel;
 
 import javax.swing.*;
 

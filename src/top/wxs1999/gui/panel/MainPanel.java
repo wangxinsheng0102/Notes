@@ -10,7 +10,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 import java.awt.BorderLayout;
-
 /**
  * 主页面
  */
@@ -31,7 +30,7 @@ public class MainPanel extends JPanel {
 
     public static MainPanel instance = new MainPanel();
     private MainPanel(){
-        UItools.setImageIcon(this.bLogin, "", "登录");
+        UItools.setImageIcon(this.bLogin, "login.png", "登录");
         UItools.setImageIcon(this.bSpend, "home.png", "消费一览");
         UItools.setImageIcon(this.bRecord, "record.png", "记一笔");
         UItools.setImageIcon(this.bCategory, "category2.png", "消费分类");
@@ -63,5 +62,4 @@ public class MainPanel extends JPanel {
         this.bSpend.addActionListener(listener);
         this.bLogin.addActionListener(listener);
     }
-
 }

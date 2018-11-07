@@ -15,8 +15,9 @@ import java.sql.SQLException;
  * @author wxs
  */
 public class SpendDAO {
-    public void spendReader() {
+    public static double spendReader() {
         String sql = "select * from cost_data";
+        double sum = 0;
         try (Connection c = DataBaseTools.getConn(); PreparedStatement ps = c.prepareStatement(sql)) {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
@@ -24,12 +25,15 @@ public class SpendDAO {
                 String type = rs.getString(2);
                 double cost = rs.getDouble(3);
                 if (user.equals(gloableStatus.userName)) {
-                    gloableStatus.sum += cost;
+                    sum += cost;
                 }
             }
+            DataBaseTools.closeDataBaseLink(c, ps);
+            return sum;
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return sum;
     }
 }
 //class test{

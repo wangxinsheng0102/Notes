@@ -5,7 +5,7 @@ import listener.RecordListener;
 import javax.swing.*;
 import java.awt.*;
 
-public class RecordPanel extends JPanel{
+public class RecordPanel extends WorkingPanel {
     public JTextField cost = new JTextField();
     public JComboBox types = new JComboBox();//下拉选择消费类型
     JLabel l2 = new JLabel("消费金额");
@@ -36,6 +36,12 @@ public class RecordPanel extends JPanel{
         addListener();
     }
 
+    @Override
+    public void updateData() {
+
+    }
+
+    @Override
     public void addListener() {
         RecordListener listener = new RecordListener();
         this.bRecord.addActionListener(listener);

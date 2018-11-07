@@ -43,7 +43,6 @@ public class LoginListener implements ActionListener {
                     gloableStatus.isLogin = true;
                     PersonalPanel.instance.setName(userName);
                     PersonalPanel.instance.setDate(String.valueOf(date));
-                    PersonalPanel.instance.run();
                     p.bLogin.setText(gloableStatus.userName);//将这个按钮文字设置为用户名
                     p.workingPanel.show(PersonalPanel.instance);
                 } else {

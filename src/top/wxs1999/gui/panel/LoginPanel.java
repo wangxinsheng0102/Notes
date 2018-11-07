@@ -25,12 +25,12 @@ public class LoginPanel extends JPanel {
         bRegist.setText("注册");
         bLogin.setText("登录");
 
-        bRegist.setBounds(300,0,100,60);
-        bLogin.setBounds(300,100,100,60);
-        user.setBounds(0,0,90,30);
-        name.setBounds(0,50,200,30);
-        psw.setBounds(0,100,90,30);
-        passwordField.setBounds(0,150,200,30);
+        bRegist.setBounds(300, 100, 100, 60);
+        bLogin.setBounds(150, 100, 100, 60);
+        user.setBounds(100, 0, 90, 30);
+        name.setBounds(200, 0, 200, 30);
+        psw.setBounds(100, 50, 90, 30);
+        passwordField.setBounds(200, 50, 200, 30);
         this.add(bLogin);
         this.add(name);
         this.add(user);

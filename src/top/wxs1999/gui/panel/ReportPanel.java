@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * 月报表
  */
-public class ReportPanel extends JPanel {
+public class ReportPanel extends WorkingPanel {
     public static ReportPanel instance = new ReportPanel();
     JLabel jl = new JLabel();
     public ReportPanel(){
@@ -16,5 +16,14 @@ public class ReportPanel extends JPanel {
         this.add(jl);
     }
 
+    @Override
+    public void updateData() {
+
+    }
+
+    @Override
+    public void addListener() {
+
+    }
 }
 
