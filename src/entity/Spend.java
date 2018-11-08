@@ -1,7 +1,7 @@
 package entity;
 
 /**
- * 花费存储模型
+ * 花费存储实体
  *
  * @author wxs
  */

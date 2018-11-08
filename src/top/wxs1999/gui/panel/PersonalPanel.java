@@ -15,6 +15,7 @@ public class PersonalPanel extends WorkingPanel {
     public JLabel dateTime = new JLabel();
     public JButton bLoginOut = new JButton();
     public JLabel la = new JLabel();
+    public JButton bCahnge = new JButton();
     private String name = null;
     private String date = null;
     public static PersonalPanel instance = new PersonalPanel();
@@ -25,6 +26,8 @@ public class PersonalPanel extends WorkingPanel {
         userName.setText("用户名:" + name);
         userName.setFont(font);
         bLoginOut.setText("退出登陆");
+        bCahnge.setText("修改密码");
+        bCahnge.setBounds(150, 100, 100, 20);
         bLoginOut.setBackground(Color.darkGray);
         bLoginOut.setBounds(0, 100, 100, 20);
         dateTime.setText("登陆时间:" + date);
@@ -34,6 +37,7 @@ public class PersonalPanel extends WorkingPanel {
         this.add(userName);
         this.add(dateTime);
         this.add(bLoginOut);
+        this.add(bCahnge);
         addListener();
     }
 
@@ -52,6 +56,7 @@ public class PersonalPanel extends WorkingPanel {
     public void addListener() {
         PersonListener listener = new PersonListener();
         bLoginOut.addActionListener(listener);
+        bCahnge.addActionListener(listener);
     }
 
 

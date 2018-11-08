@@ -12,6 +12,13 @@ import java.awt.event.ActionListener;
 import java.util.Date;
 import java.util.SimpleTimeZone;
 
+/**
+ * 登陆界面按钮监听类
+ * bLogin denglu
+ * bRegist 注册
+ *
+ * @author wangx
+ */
 public class LoginListener implements ActionListener {
     LoginPanel lp;
     MainPanel p;
@@ -34,6 +41,7 @@ public class LoginListener implements ActionListener {
                 lg.setUsername(userName);
                 lg.setPassword(password);
                 if (LoginDao.login(lg)) {
+                    gloableStatus.psw = password;
                     gloableStatus.userName = userName;
                     Date date = new Date();
                     System.out.println("登陆成功");

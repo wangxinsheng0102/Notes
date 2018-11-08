@@ -1,7 +1,9 @@
 package listener;
 
 import gloable.gloableStatus;
+import javafx.scene.control.TextFormatter;
 import sun.applet.Main;
+import top.wxs1999.gui.panel.ChangeNewPSWPanel;
 import top.wxs1999.gui.panel.LoginPanel;
 import top.wxs1999.gui.panel.MainPanel;
 import top.wxs1999.gui.panel.PersonalPanel;
@@ -23,7 +25,12 @@ public class PersonListener implements ActionListener {
         if (jb == pp.bLoginOut) {
             gloableStatus.isLogin = false;
             gloableStatus.userName = null;
+            gloableStatus.psw = null;
             p.workingPanel.show(LoginPanel.instance);
+        }
+        if (jb == pp.bCahnge) {
+            p.workingPanel.show(ChangeNewPSWPanel.instance);
         }
     }
 }
+

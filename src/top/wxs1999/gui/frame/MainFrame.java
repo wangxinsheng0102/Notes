@@ -1,12 +1,12 @@
 package top.wxs1999.gui.frame;
 
 import Utool.DataBaseTools;
+import entity.Login;
 import sun.applet.Main;
-import top.wxs1999.gui.panel.LoginPanel;
-import top.wxs1999.gui.panel.MainPanel;
-import top.wxs1999.gui.panel.PersonalPanel;
+import top.wxs1999.gui.panel.*;
 
 import javax.swing.*;
+import javax.swing.text.ChangedCharSetException;
 
 public class MainFrame extends JFrame {
 
@@ -26,7 +26,8 @@ class Test {
     public static void main(String[] args){
         //System.out.println(DataBaseTools.getConn());
         MainFrame.instance.setVisible(true);
-        MainPanel.instance.workingPanel.show(LoginPanel.instance);
+        MainPanel.instance.workingPanel.show(RecordPanel.instance);
+
 
     }
 }

@@ -21,11 +21,11 @@ public class RecordPanel extends WorkingPanel {
         types.addItem("服务");
         types.addItem("购物");
         types.addItem("其它");
-        bRecord.setBounds(100, 150, 100, 40);
+        bRecord.setBounds(400, 170, 100, 40);
         types.setBounds(0, 100, 100, 40);
         l2.setFont(new Font("微软雅黑", Font.BOLD, 23));
         l2.setBounds(255, 0, 100, 100);
-        cost.setBounds(255, 120, 300, 40);
+        cost.setBounds(255, 100, 300, 40);
         jl.setFont(new Font("微软雅黑", Font.BOLD, 23));
         jl.setBounds(0, 0, 100, 100);
         this.add(jl);

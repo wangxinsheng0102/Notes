@@ -12,7 +12,7 @@ import java.sql.SQLException;
 /**
  * 读取消费记录
  *
- * @author wxs
+ * @author wangx
  */
 public class SpendDAO {
     public static double spendReader() {

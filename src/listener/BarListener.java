@@ -38,8 +38,6 @@ public class BarListener implements ActionListener {
                 p.workingPanel.show(RecordPanel.instance);
             }
             if (jb == p.bSpend) {
-                SpendDAO read = new SpendDAO();
-                read.spendReader();//绑定更新消费总额
                 p.workingPanel.show(SpendPanel.instance);
             }
 

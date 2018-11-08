@@ -8,7 +8,7 @@ import java.sql.*;
 /**
  * 数据库注册写入操作
  *
- * @author wxs
+ * @author wangx
  */
 public class RegistDao {
     public static void add(Login login) {

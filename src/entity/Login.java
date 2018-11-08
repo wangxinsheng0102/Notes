@@ -1,5 +1,10 @@
 package entity;
 
+/**
+ * 登陆数据实体
+ *
+ * @author wangx
+ */
 public class Login {
     private String username;
     private String password;
@@ -11,6 +16,7 @@ public class Login {
         this.username = username;
         this.password = password;
     }
+
     public String getUsername() {
         return username;
     }

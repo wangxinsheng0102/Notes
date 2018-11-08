@@ -9,7 +9,7 @@ import java.awt.*;
 /**
  * 登录页面
  */
-public class LoginPanel extends JPanel {
+public class LoginPanel extends WorkingPanel {
     public static LoginPanel instance = new LoginPanel();
     public JTextField name = new JTextField();
     public JPasswordField passwordField = new JPasswordField();
@@ -39,10 +39,18 @@ public class LoginPanel extends JPanel {
         this.add(bRegist);
         addListener();
     }
+
+    @Override
     public void addListener(){
         LoginListener listener = new LoginListener();
         this.bRegist.addActionListener(listener);
         this.bLogin.addActionListener(listener);
+    }
+
+    @Override
+    public void updateData() {
+        name.setText(null);
+        passwordField.setText(null);
     }
     public boolean isLogin(){
         return true;

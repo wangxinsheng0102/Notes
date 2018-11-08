@@ -10,7 +10,7 @@ import java.sql.*;
 /**
  * 写入消费记录
  *
- * @author wxs
+ * @author wangx
  */
 public class SpendInnerDAO {
     public static void spendInner(Spend sp) {
