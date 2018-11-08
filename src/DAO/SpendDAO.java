@@ -8,6 +8,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 /**
  * 读取消费记录
@@ -15,7 +16,8 @@ import java.sql.SQLException;
  * @author wangx
  */
 public class SpendDAO {
-    public static double spendReader() {
+    public static ArrayList<Spend> spendReader() {
+        ArrayList<Spend> sList = new ArrayList<Spend>();
         String sql = "select * from cost_data";
         double sum = 0;
         try (Connection c = DataBaseTools.getConn(); PreparedStatement ps = c.prepareStatement(sql)) {
@@ -25,15 +27,15 @@ public class SpendDAO {
                 String type = rs.getString(2);
                 double cost = rs.getDouble(3);
                 if (user.equals(gloableStatus.userName)) {
-                    sum += cost;
+                    sList.add(new Spend(type, cost));
                 }
             }
             DataBaseTools.closeDataBaseLink(c, ps);
-            return sum;
+            return sList;
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return sum;
+        return sList;
     }
 }
 //class test{

@@ -26,7 +26,7 @@ class Test {
     public static void main(String[] args){
         //System.out.println(DataBaseTools.getConn());
         MainFrame.instance.setVisible(true);
-        MainPanel.instance.workingPanel.show(RecordPanel.instance);
+        MainPanel.instance.workingPanel.show(LoginPanel.instance);
 
 
     }
