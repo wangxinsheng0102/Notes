@@ -19,11 +19,11 @@ public class SpendPanel extends WorkingPanel {
     private double sum = 0;
     public static SpendPanel instance = new SpendPanel();
     JLabel jl = new JLabel();
-    ChartFrame chartFrame;
+    DefaultPieDataset df = new DefaultPieDataset();
+
     public SpendPanel(){
         this.setLayout(new BorderLayout());
         ArrayList<Spend> Slist = SpendDAO.spendReader();
-        ChartPanel chartPanel = getChart();
         for (Spend e : Slist) {
             sum += e.getCost();
         }
@@ -33,37 +33,13 @@ public class SpendPanel extends WorkingPanel {
             jl.setText("无数据");
         }
         jl.setFont(new Font("微软雅黑", Font.BOLD, 23));
-        this.add(jl, BorderLayout.NORTH);
-        this.add(chartPanel, BorderLayout.CENTER);
-        chartPanel.repaint();
-    }
-    @Override
-    public void updateData() {
-        ArrayList<Spend> Slist = SpendDAO.spendReader();
-        ChartPanel chartPanel = getChart();
-        sum = 0;
-        for (Spend e : Slist) {
-            sum += e.getCost();
-        }
-        if (sum != 0) {
-            jl.setText("总计消费" + sum);
-        } else {
-            jl.setText("无数据");
-        }
-        chartPanel.updateUI();
-        chartPanel.revalidate();
-        chartPanel.repaint();
-        addListener();
-    }
-    @Override
-    public void addListener() {
-
-    }
-
-    public ChartPanel getChart() {
-        ArrayList<Spend> Slist = SpendDAO.spendReader();
+        /**
+         * Jfreechart
+         */
         //获得数据集
-        DefaultPieDataset df = getDataSet(Slist);
+        for (Spend e : Slist) {
+            df.setValue(e.getType(), e.getCost());
+        }
         //创建3D饼图
         JFreeChart chart = ChartFactory.createPieChart("消费分类统计图", df, true, true, false);
         //设置图片背景色
@@ -88,14 +64,35 @@ public class SpendPanel extends WorkingPanel {
         plot.setLabelFont((new Font("宋体", Font.PLAIN, 20)));
         ChartPanel chartPanel = new ChartPanel(chart);
         chartPanel.setFont(new Font("宋体", Font.BOLD, 20));
-        return chartPanel;
+        /**
+         *
+         */
+        this.add(jl, BorderLayout.NORTH);
+        this.add(chartPanel, BorderLayout.CENTER);
+        chartPanel.repaint();
     }
 
-    public DefaultPieDataset getDataSet(ArrayList<Spend> sList) {
-        DefaultPieDataset df = new DefaultPieDataset();
-        for (Spend e : sList) {
+    @Override
+    public void updateData() {
+        df.clear();
+        ArrayList<Spend> Slist = SpendDAO.spendReader();
+        sum = 0;
+        for (Spend e : Slist) {
+            sum += e.getCost();
             df.setValue(e.getType(), e.getCost());
         }
-        return df;
+        if (sum != 0) {
+            jl.setText("总计消费" + sum);
+        } else {
+            jl.setText("无数据");
+        }
+        this.add(jl, BorderLayout.NORTH);
+        updateUI();
+        addListener();
+    }
+
+    @Override
+    public void addListener() {
+
     }
 }

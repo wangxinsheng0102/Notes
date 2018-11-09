@@ -35,7 +35,7 @@ public class MainPanel extends JPanel {
         UItools.setImageIcon(this.bRecord, "record.png", "记一笔");
         UItools.setImageIcon(this.bCategory, "category2.png", "消费分类");
         UItools.setImageIcon(this.bReport, "report.png", "月消费报表");
-        UItools.setImageIcon(this.bConfig, "config.png", "设置");
+        UItools.setImageIcon(this.bConfig, "config.png", "删除记录");
         // 把按钮添加到工具栏上
         this.tb.add(this.bLogin);
         this.tb.add(this.bSpend);

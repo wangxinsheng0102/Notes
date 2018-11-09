@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CategoryPanel extends JPanel {
-    public static ConfigPanel instance = new ConfigPanel();
+    public static deleteDataPanel instance = new deleteDataPanel();
     JLabel jl = new JLabel();
     public CategoryPanel(){
         jl.setText("目录页面");

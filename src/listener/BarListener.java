@@ -1,6 +1,5 @@
 package listener;
 
-import DAO.SpendDAO;
 import top.wxs1999.gui.panel.*;
 import gloable.gloableStatus;
 import javax.swing.*;
@@ -32,7 +31,7 @@ public class BarListener implements ActionListener {
                 p.workingPanel.show(CategoryPanel.instance);
             }
             if (jb == p.bConfig) {
-                p.workingPanel.show(ConfigPanel.instance);
+                p.workingPanel.show(deleteDataPanel.instance);
             }
             if (jb == p.bRecord) {
                 p.workingPanel.show(RecordPanel.instance);
