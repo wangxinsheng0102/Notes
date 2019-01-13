@@ -2,7 +2,6 @@ package top.wxs1999.gui.frame;
 
 import Utool.DataBaseTools;
 import entity.Login;
-import sun.applet.Main;
 import top.wxs1999.gui.panel.*;
 
 import javax.swing.*;

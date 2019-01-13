@@ -1,9 +1,7 @@
 package listener;
 
 import DAO.RegistDao;
-import com.sun.scenario.effect.impl.sw.java.JSWBlend_COLOR_BURNPeer;
 import entity.Login;
-import sun.applet.Main;
 import top.wxs1999.gui.panel.LoginPanel;
 import top.wxs1999.gui.panel.MainPanel;
 import top.wxs1999.gui.panel.RegistPanel;

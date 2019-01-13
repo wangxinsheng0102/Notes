@@ -8,7 +8,7 @@ import java.sql.*;
 public class DataBaseTools {
     static String ip = "localhost";
     static int port = 3306;
-    static String database = "user";
+    static String database = "test";
     static String encoding = "UTF-8";
     static String loginName = "root";
     static String password = "818923";
@@ -26,7 +26,7 @@ public class DataBaseTools {
      */
     public static Connection getConn(){
         // Class.forName("com.mysql.jdbc.Driver");
-        String url = String.format("jdbc:mysql://%s:%d/%s?characterEncoding=%s", ip, port, database, encoding);
+        String url = String.format("jdbc:mysql://%s:%d/%s?useUnicode=true&characterEncoding=%s", ip, port, database, encoding);
         try {
             //System.out.println("连接成功！");
             return DriverManager.getConnection(url, loginName, password);

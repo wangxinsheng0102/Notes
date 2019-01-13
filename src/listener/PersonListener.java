@@ -1,8 +1,6 @@
 package listener;
 
 import gloable.gloableStatus;
-import javafx.scene.control.TextFormatter;
-import sun.applet.Main;
 import top.wxs1999.gui.panel.ChangeNewPSWPanel;
 import top.wxs1999.gui.panel.LoginPanel;
 import top.wxs1999.gui.panel.MainPanel;
